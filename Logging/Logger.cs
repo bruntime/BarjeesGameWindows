@@ -55,7 +55,11 @@ namespace Barjees.Logging
         /// <returns>Log directory path</returns>
         public static string GetLogFolder()
         {
-            return Directory.GetCurrentDirectory() + @"\Log\";
+            string logFolder = Directory.GetCurrentDirectory() + @"\Log\";
+            if (!Directory.Exists(logFolder))
+                Directory.CreateDirectory(logFolder);
+
+            return logFolder;
         }
     }
 }
