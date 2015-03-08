@@ -108,6 +108,11 @@
     <EmbeddedResource Include="Windows\LogWindow.resx">
       <DependentUpon>LogWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Diagrams\Commands.cd" />
+    <None Include="Diagrams\Game Objects.cd" />
+    <None Include="Diagrams\Game States.cd" />
+    <None Include="Diagrams\Game Player.cd" />
+    <None Include="Diagrams\Pawn.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

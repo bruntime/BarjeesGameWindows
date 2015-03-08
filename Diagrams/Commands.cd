@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Barjees.Commands.Command" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQCAAAEAgBAAAQAEAAAQAQAEAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Command.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="status" />
+      <Property Name="Context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Barjees.Commands.PlayCommand" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAEAAAAEAAAAAAAAAQAAA=</HashCode>
+      <FileName>Commands\PlayCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barjees.Commands.RollCommand" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAQQAAAAAACAAEAAAAEAAAAAAAAAQAAA=</HashCode>
+      <FileName>Commands\RollCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barjees.Commands.SelectCellCommand" Collapsed="true">
+    <Position X="5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\SelectCellCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barjees.Commands.SelectPawnCommand" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\SelectPawnCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barjees.Commands.CommandContext" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAQQAAAAAAAAAAAgAQAIAAAAAAAAEAQBACAA=</HashCode>
+      <FileName>Commands\CommandContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Barjees.Commands.CommandStatus">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Command.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

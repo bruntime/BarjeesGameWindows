@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Barjees.Common.GameObject" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgABAIAAAQAoAgAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Common\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Barjees.Common.VisualGameObject" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Common\VisualGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barjees.Elements.GameBoard" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAYAACAAQAAAQNIAYIAAiCAgAIIAAACBCCAACABkA=</HashCode>
+      <FileName>Elements\GameBoard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Cells" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Barjees.Elements.Pawn" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCQAAKCQAMAEEAAAJAAACAAAwAgAAEAAABAiAAAAAiA=</HashCode>
+      <FileName>Elements\Pawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barjees.Elements.Cell" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCCAiAAACIAAIAIAACgCAAAIJiAABAAxACAAAACgg=</HashCode>
+      <FileName>Elements\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barjees.Elements.Player" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAEAAAERAgAAEAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>Elements\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Pawns" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

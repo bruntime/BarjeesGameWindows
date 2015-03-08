@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Barjees.Elements.Pawn">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="bound" Hidden="true" />
+      <Property Name="CanSelected" Hidden="true" />
+      <Field Name="currentCellNode" Hidden="true" />
+      <Method Name="GetBrush" Hidden="true" />
+      <Field Name="isAchieved" Hidden="true" />
+      <Property Name="IsAchieved" Hidden="true" />
+      <Property Name="IsCooking" Hidden="true" />
+      <Field Name="isLive" Hidden="true" />
+      <Property Name="IsLive" Hidden="true" />
+      <Field Name="isSelected" Hidden="true" />
+      <Property Name="IsSelected" Hidden="true" />
+      <Method Name="OnPropertyChanged" Hidden="true" />
+      <Property Name="Owner" Hidden="true" />
+      <Method Name="Pawn" Hidden="true" />
+      <Property Name="SIZE" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gCQAAKCQAMAEEAAAJAAACAAAwAgAAEAAABAiAAAAAiA=</HashCode>
+      <FileName>Elements\Pawn.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bound" />
+      <Property Name="CurrentCellNode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Barjees.Shapes.GRectangle" Collapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAACAQAAAgAAIAAAIAAAAAAAAAAAAAAAAAAIAQA=</HashCode>
+      <FileName>Shapes\GRectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Collections.Generic.LinkedListNode&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
